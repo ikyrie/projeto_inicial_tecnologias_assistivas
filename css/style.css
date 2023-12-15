@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+
+body {
+    background-color: #041832;
+    background-image: url(../img/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-blend-mode: overlay;
+    color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.botao {
+    display: inline-block;
+    width: 280px;
+    padding: 14px 0;
+    color: #123F77;
+    font-weight: 600;
+    font-size: 24px;
+    text-align: center;
+    background-color: #22D4FD;
+    border-radius: 10px;
+}
+
+.botao--secundario {
+    width: 378px;
+    border: 1px solid #22D4FD;
+    border-radius: 10px;
+    background-color: unset;
+    color: #FFFFFF;
+}
+
+.botao--secundario img {
+    width: 32px;
+    height: 32px;
+    margin-right: 16px;
+    vertical-align: text-bottom;
+}
+
+.cabecalho {
+    font-size: 24px;
+    font-weight: 600;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 54px 16px;
+}
+
+.cabecalho__logo {
+    margin-bottom: 16px;
+}
+
+.cabecalho__navegacao li {
+    display: inline-block;
+    margin: 16px;
+}
+
+.main {
+    max-width: 1200px;
+    margin: 0 auto 80px;
+    padding: 0 16px;
+}
+
+.hero__imagem {
+    display: block;
+    margin: 0 auto 40px;
+}
+
+.hero__titulo {
+    font-size: 36px;
+    font-family: 'Krona One', sans-serif;
+    line-height: 56px;
+    margin-bottom: 40px;
+}
+
+.hero__titulo span {
+    color: #22D4FD;
+}
+
+.hero__texto {
+    font-size: 24px;
+    line-height: 36px;
+    margin-bottom: 40px;
+}
+
+.hero__botoes {
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.hero__botoes .botao {
+    margin: 8px 16px;
+}
+
+.minhas-redes {
+    width: fit-content;
+    margin: 80px auto;
+}
+
+.minhas-redes__titulo {
+    text-align: center;
+    font-family: 'Krona One', sans-serif;
+    font-size: 24px;
+    margin-bottom: 32px;
+}
+
+.minhas-redes .botao {
+    display: block;
+    margin: 0 auto 32px;
+}
+
+.sobre-mim {
+    margin-bottom: 104px;
+}
+
+.sobre-mim__titulo {
+    text-align: center;
+    font-size: 36px;
+    font-family: 'Krona One', sans-serif;
+    line-height: 56px;
+    margin-bottom: 40px;
+}
+
+.sobre-mim__imagem {
+    display: block;
+    margin: 0 auto 40px;
+}
+
+.sobre-mim__texto {
+    max-width: 776px;
+    margin: 0 auto;
+    font-size: 24px;
+    line-height: 36px;
+}
+
+.meus-projetos__titulo {
+    margin-bottom: 64px;
+    text-align: center;
+    font-family: 'Krona One', sans-serif;
+    font-size: 36px;
+}
+
+.meus-projetos__divisao {
+    margin: 80px 0;
+    border-top: 1px solid #22D4FD;
+}
+
+.projeto__titulo {
+    font-family: 'Krona One', sans-serif;
+    font-size: 32px;
+    margin-bottom: 40px;
+}
+
+.projeto__imagem {
+    display: block;
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.projeto__texto {
+    font-size: 24px;
+    line-height: 36px;
+    margin-bottom: 40px;
+}
+
+.projeto__link {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: #22D4FD;
+    text-decoration: underline;
+}
+
+.rodape {
+    padding: 26px;
+    background: #22D4FD;
+    width: 100%;
+    text-align: center;
+    
+    color: #123F77;
+    font-size: 18px;
+    line-height: 32px; 
+}
